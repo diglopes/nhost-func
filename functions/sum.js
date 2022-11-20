@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-    res.status(200).send(10)
+    res.status(200).json({ result: 10 })
 }

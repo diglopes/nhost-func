@@ -1,3 +1,3 @@
-module.exports = (a, b) => {
-    return a + b
+module.exports = (req, res) => {
+    res.status(200).send(10)
 }
